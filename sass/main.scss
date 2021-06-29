@@ -1,5 +1,4 @@
 @import './abstracts/functions';
-@import './abstracts/_placeholders';
 @import './abstracts/mixins';
 @import './abstracts/variables';
 
@@ -7,18 +6,14 @@
 @import './base/base';
 @import './base/reset';
 @import './base/typography';
-@import './base/utilities';
 
-@import './components/button';
+@import './components/buttons';
 
 @import './layout/header';
 @import './layout/footer';
 
-@import './pages/about';
-@import './pages/contact';
-@import './pages/home';
-@import './pages/services';
+@import './pages/landing_page';
 
-@import './theme/theme';
+@import './themes/material';
 
 @import './vendors/bootstrap';
