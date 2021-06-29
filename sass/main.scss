@@ -1,18 +1,24 @@
 @import './abstracts/functions';
+@import './abstracts/_placeholders';
 @import './abstracts/mixins';
 @import './abstracts/variables';
 
-@import './base/base';
 @import './base/animations';
+@import './base/base';
+@import './base/reset';
 @import './base/typography';
 @import './base/utilities';
 
-// @import './components/button';
+@import './components/button';
 
-// @import './layout/header';
+@import './layout/header';
+@import './layout/footer';
 
+@import './pages/about';
+@import './pages/contact';
 @import './pages/home';
+@import './pages/services';
 
-// @import './theme/dark_mode'
+@import './theme/theme';
 
-// @import './vendors/bootstrap';
+@import './vendors/bootstrap';
